@@ -1,7 +1,10 @@
+@import "./grid.css";
+@import "./userCard.css";
+
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0pc;
+    padding: 0;
 }
 
 body{
@@ -10,34 +13,4 @@ background-color: aquamarine;
 justify-content: 
 center;
 align-items: stretch;
-}
-
-.cardContainer{
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    min-width: 200px;
-    width: 100%;
-    border:1px solid red;
-    margin:20px;
-    background-color: white;
-}
-
-.cardHeader{
-    background-color:blue;
-    height: 150px;
-    
-
-}
-
-.userInfo{
-background-color: white;
-padding: 40px 20px;
-}
-
-.cardFooter{
-text-align: center
-;
-background-color: royalblue;
-margin-top: auto;
 }
